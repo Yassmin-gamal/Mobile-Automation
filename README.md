@@ -112,7 +112,7 @@
 
 1. POM Pattern of my Project :
    ```css
-Mobile-Automation
+  Mobile-Automation
    ├── pom.xml
    ├── testng.xml
    ├── src
