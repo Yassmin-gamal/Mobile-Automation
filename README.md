@@ -137,11 +137,14 @@
    └── README.md
 
 ## Issues 
-- Date Parsing Issue in Scenario 2: In Scenario 2, some dates may be missing data, causing parsing errors. This results in error messages and causes the test case to fail. This issue needs to be addressed to ensure the robustness of the test case.
+1- Date Parsing Issue in Scenario 2: In Scenario 2, some dates may be missing data, causing parsing errors. This results in error messages and causes the test case to fail. This issue needs to be addressed to ensure the robustness of the test case.
   
-![fgv](https://github.com/user-attachments/assets/906723c9-f89a-4cfb-955b-f9c28149fca4)
+   ![fgv](https://github.com/user-attachments/assets/906723c9-f89a-4cfb-955b-f9c28149fca4)
 
-![WhatsApp Image 2024-08-18 at 11 06 08 PM](https://github.com/user-attachments/assets/8fa1a523-b960-4948-b5e0-23baec0b40ab)
-![WhatsApp Image 2024-08-18 at 11 05 57 PM](https://github.com/user-attachments/assets/cffafa05-7090-4696-9758-145a482c8f2f)
+   ![WhatsApp Image 2024-08-18 at 11 06 08 PM](https://github.com/user-attachments/assets/8fa1a523-b960-4948-b5e0-23baec0b40ab)
+   ![WhatsApp Image 2024-08-18 at 11 05 57 PM](https://github.com/user-attachments/assets/cffafa05-7090-4696-9758-145a482c8f2f)
 
+   #### I am trying to handle this by incorporating DateTimeParseException.
+
+   
 
