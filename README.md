@@ -154,3 +154,29 @@
 ![axf (1)](https://github.com/user-attachments/assets/47cd8bc4-cf16-45de-b507-e6d105ea3787)
 
 
+## Demo Videos
+
+1- In the first scenario, I used data-driven testing to handle various datasets and created a generic function to check the movie name on both the home screen and movie screen. Since the movie might not be on the initial screen and scrolling through a large amount of data would be time-consuming, I implemented a search feature. This approach saves time and makes the test more efficient.
+
+
+
+https://github.com/user-attachments/assets/a33ceeaf-0b47-4309-b4a5-f1b3f529b5ba
+
+
+ 
+
+2- In the second scenario, I applied a filter to show only films with future release dates. When selecting 'Ascending,' the results should display dates closest to the current date but still in the future. However, it incorrectly shows dates from the past
+
+
+https://github.com/user-attachments/assets/3a5be627-eefe-4c91-8b06-45fa8059bcdd
+
+
+
+
+3- In the third scenario, I used the scroll method to verify that the dates of movies appearing on the initial screen, as well as those visible after scrolling down three times, are in the future. This check was successfully completed and passed
+
+
+https://github.com/user-attachments/assets/d4e75787-b608-4704-9e27-973cb1e8ecdb
+
+
+
