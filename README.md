@@ -93,11 +93,11 @@
 
 
 ## Features
-1. Automated Test Execution: Executes automated tests for various functionalities of the Jetflix App.
-2. Home Page Testing: Verifies the functionality and layout of the home page, including navigation and element interactions.
-3. Movie Page Testing: Validates the movie detail views and interactions on the movie page.
-4. Page Object Model (POM): Utilizes POM to structure test code, making it maintainable and scalable.
-5. Dynamic Capabilities Setup: Configures desired capabilities dynamically for different test environments and devices.
-6. Data-Driven Testing: Uses TestNG Data Providers to test different films within a single test case, allowing for comprehensive validation of movie-related functionalities across various data sets
-7. Locator Management: Stores all locators and elements in a dedicated file for better maintainability and organization.
-8. Element Visibility Handling: Implements timeouts to handle the visibility of elements and manage errors related to elements not being visible.
+1-  Automated Test Execution: Executes automated tests for various functionalities of the Jetflix App.
+2-  Home Page Testing: Verifies the functionality and layout of the home page, including navigation and element interactions.
+3-  Movie Page Testing: Validates the movie detail views and interactions on the movie page.
+4-  Page Object Model (POM): Utilizes POM to structure test code, making it maintainable and scalable.
+5-  Dynamic Capabilities Setup: Configures desired capabilities dynamically for different test environments and devices.
+6-  Data-Driven Testing: Uses TestNG Data Providers to test different films within a single test case, allowing for comprehensive validation of movie-related functionalities across various data sets
+7-  Locator Management: Stores all locators and elements in a dedicated file for better maintainability and organization.
+8-  Element Visibility Handling: Implements timeouts to handle the visibility of elements and manage errors related to elements not being visible.
