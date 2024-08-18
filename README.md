@@ -1,2 +1,21 @@
-# Mobile-Automation
- APPIUM
+# Test-Mobile-Automation
+
+ ## Table of Contents
+- [Overview](#Overview)
+- [Project Structure](#Project-Structure)
+- [Prerequisites](#Prerequisites)
+- [Features](#Features)
+- [Project Layout](#Project-Layout)
+ - [Setup](#setup)
+  - [Install Appium](#install-appium)
+  - [Install Android Studio](#install-android-studio)
+  - [Clone the Repository](#clone-the-repository)
+  - [Configure the Project](#configure-the-project)
+- [Clone the Repository](#clone-the-repository)
+- [Running the Tests](#running-the-tests)
+  - [Using IDE](#using-ide)
+  - [Using Maven](#using-maven)
+- [Enhancing API Security with Token-Based Authorization](#Enhancing-API-Security-with-Token-Based-Authorization)
+- [Validation for Test Cases](#Validation-for-Test-Cases)
+- [TestNG Reports](#TestNG-Reports)
+- [Demo Videos](#Demo-Videos) 
