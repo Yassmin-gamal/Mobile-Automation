@@ -29,7 +29,7 @@
 - Maven: Version 3.7.0
 - TestNG: Version 7.5
 - Appium Java-client: Version 7.1.0
-. All dependencies are managed via the pom.xml file in Eclipse IDE.
+  ### All dependencies are managed via the pom.xml file in Eclipse IDE.
 
 ## Device Configuration
 
