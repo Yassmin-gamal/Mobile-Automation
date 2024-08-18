@@ -15,7 +15,6 @@
   - [Using IDE](#using-ide)
   - [Using Maven](#using-maven)
 - [Issues](#Issues)
-- [Test Cases Coverage](#Test-Cases-Coverage)
 - [TestNG Reports](#TestNG-Reports)
 - [Demo Videos](#Demo-Videos) 
 
@@ -148,3 +147,10 @@
 
    
 2- When applying the filter for release dates to show only future dates, and then selecting 'Order Ascending,' the earliest date should be closest to 2024 but still in the future. However, in @ Video Scenario 2, a date from the past is incorrectly displayed.
+
+## TestNG Reports
+1- In the first scenario, I used data-driven testing to handle various datasets and created a generic function to check the movie name on both the home screen and movie screen. Since the movie might not be on the initial screen and scrolling through a large amount of data would be time-consuming, I implemented a search feature. This approach saves time and makes the test more efficient.
+
+![axf (1)](https://github.com/user-attachments/assets/47cd8bc4-cf16-45de-b507-e6d105ea3787)
+
+
