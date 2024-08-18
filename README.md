@@ -101,3 +101,38 @@
 6. Data-Driven Testing: Uses TestNG Data Providers to test different films within a single test case, allowing for comprehensive validation of movie-related functionalities across various data sets
 7. Locator Management: Stores all locators and elements in a dedicated file for better maintainability and organization.
 8. Element Visibility Handling: Implements timeouts to handle the visibility of elements and manage errors related to elements not being visible.
+
+## Project Structure
+
+- Implement the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern. 
+        - BaseTest: Sets up the device and app capabilities.
+        - ElementsLocators: Defines locators for all elements used in the app, managed in a dedicated file for better organization.
+        - HomePage: Manages interactions and verifications for the home page.
+        - MoviePage: Manages interactions and verifications for the movie page.
+
+1. POM Pattern of my Project :
+   ```css
+Mobile-Automation
+   ├── pom.xml
+   ├── testng.xml
+   ├── src
+   │   ├── main
+   │   │   └── java
+   │   │       └── Android
+   │   │           └── App
+   │   │       
+   │   └── test
+   │       └── java
+   │               └── example
+   │                   │   ├── Scenario1.java
+   │                   │   ├── Scenario2.java
+   │                   │   └── Scenario2AnotherSolution .java
+   │                   │   
+   │                   │   
+   │                   └── pages
+   │                          └── MoviePage.java
+   │                          ├── HomePage.java
+   │                          ├── ElementsLocators.java
+   │                          └── BasePage.java
+   └── README.md
+
