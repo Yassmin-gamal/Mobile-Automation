@@ -144,7 +144,7 @@
    ![WhatsApp Image 2024-08-18 at 11 06 08 PM](https://github.com/user-attachments/assets/8fa1a523-b960-4948-b5e0-23baec0b40ab)
    ![WhatsApp Image 2024-08-18 at 11 05 57 PM](https://github.com/user-attachments/assets/cffafa05-7090-4696-9758-145a482c8f2f)
 
-   #### I am trying to handle this by incorporating DateTimeParseException.
+   #### I am trying to handle this by incorporating DateTimeParseException to test
 
    
-
+2- When applying the filter for release dates to show only future dates, and then selecting 'Order Ascending,' the earliest date should be closest to 2024 but still in the future. However, in @ Video Scenario 2, a date from the past is incorrectly displayed.
